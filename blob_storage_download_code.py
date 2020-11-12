@@ -16,7 +16,7 @@ LOCAL_BLOB_PATH = "download_images"
  
 class AzureBlobFileDownloader:
   def __init__(self):
-    print("Intializing Azure Blob File Downloader")
+    print("Intializing Azure Blob File Downloader Hello")
  
     # Initialize the connection to Azure storage account
     self.blob_service_client =  BlobServiceClient.from_connection_string(MY_CONNECTION_STRING)
